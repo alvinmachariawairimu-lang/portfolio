@@ -1,0 +1,93 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    background-color: olive;
+}
+header{
+    background-color: burlywood;
+    text-align: center;
+    padding:30px 0px ;
+
+}
+nav ul{
+    list-style-type: none;
+}
+nav li{
+    display: inline-block;
+    margin:0px 10px ;
+}
+nav li{
+    display: inline-block;
+    margin: 0px 10px;
+}
+nav a{
+    color: cornflowerblue;
+    text-align: none;
+    padding: 10px 15px;
+}
+nav a:hover{
+    background-color: aquamarine;
+    border-radius: 5px;
+}
+#about{
+    background-color: fuchsia;
+    padding: 20px;
+    border:3px solid black;
+    border-radius: 8px;
+    box-shadow: 10px blue;
+    margin-bottom: 20px;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: auto;
+    gap: 15px;
+}
+.contact-form label{
+    font-weight: bold;
+    color: burlywood;
+
+}
+.contact-form input
+.contact-form textarea{
+    width: 100%;
+    border:1px solid lawngreen ;
+    border-radius: 5px;
+}
+.contact-form button{
+    background-color: lawngreen;
+    color: cornflowerblue;
+    border: none;
+    border-radius: 8px;padding: 12px;
+    font-size: larger;
+    cursor: pointer;
+}
+.contact-form button:hover{
+    background-color: yellowgreen;
+
+}
+#project-container{
+    display: flex;
+    gap: 15px;
+}
+.projo{
+    background-color: aquamarine;
+    padding: 15px;
+    border: yellowgreen 3px;
+    border-radius: 10px;
+    box-shadow: black 10px;
+    text-align: center;
+}
+h3{
+    color: olive;
+}
+h2{
+    color: cornflowerblue;
+}
+footer{
+    background-color: tomato;
+    text-align: center;
+    color: aqua;
+    padding: 15px;
+}
